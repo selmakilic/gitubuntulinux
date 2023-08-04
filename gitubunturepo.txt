@@ -1,0 +1,18 @@
+### SANAL MAKINEDEN GITHUB REPOYA PUSH ATMA 
+
+##1 sanal makine new terminal a.
+##1 tildadayken sudo apt-get install git  ##git kurulu degilse bu sekilde 
+##3 git config --global user.name "selmakilic"  "selmakilic" = github kullanici ismidir
+##4 git config  --global user.email "selmakilic91@gmail.com"  
+##3 github hesabiniza  gidin ve yeni git hub repo olusturun ornek gitubuntulinux olusturun
+##6 olusan yeni repo ismi ile ayni olacak sekilde sanal makinede bir klasor olusturun veonceden var olan sanal makindeki dosyalarini buraya cp ile kopyalayip yaptirin dogru bir sekilde 
+## sanal makinede  yeni olusan gitubuntulinux adli klasorun icine kopladipiniz calismlar geldikten sonra  GITHUB REPO DA olusan yeni repoda ilk cikan :
+"echo "# gitubuntulinux" >> README.md"
+git init
+git add README.md 
+git commit -m "first commit"
+git remote add origin https://github.com/selmakilic/gitubuntulinux 
+git push -u origin master 
+
+##yukaridaki vb cikan komutlari kopyala ve terminale yapisitr tek tek 
+##ve boylece github reposuna sanal makineden klasor icindeki calismalariniz pushlanmis olur.
